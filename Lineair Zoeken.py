@@ -1,12 +1,12 @@
 import random
 
 def Lineair_Zoeken(target, lst):
-    if len(lst) == 1 and target != lst[0]:                  # Als de lijst nog 1 item heeft en dit niet de target is
-        return False                                        # Geef niet terug
-    elif lst[0] == target:                                  # Als de 1ste item van lijst het target is
-        return True                                         # Geef wel terug
+    if len(lst) == 1 and target != lst[0]:
+        return False
+    elif lst[0] == target:
+        return True
     else:
-        return Lineair_Zoeken(target, lst[1:])               # Recursie met lijst zonder eerste item
+        return Lineair_Zoeken(target, lst[1:])
 
 
 def random_lijst():
