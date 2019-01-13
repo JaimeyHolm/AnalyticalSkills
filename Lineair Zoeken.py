@@ -27,7 +27,7 @@ def test():
         target = random.randint(1, 99)
         print('Random lijst: ' + str(lst))
         print('Target: ' + str(target))
-        print(target in lst, '\n')
+        print('Target in lijst:', target in lst, '\n')
         i -= 1
 
 
